@@ -1,0 +1,59 @@
+.imageContainer {
+    width:200px;
+    border: 2px solid red;
+}
+
+.headerContainer {
+    width:200px;
+    border: 2px solid red;
+    
+}
+
+.returnContainer{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+    .returnFields{
+        flex:1;
+        border: 2px solid red;
+        padding:2px;
+    }
+
+    .returnInput{
+        width:200px;
+    }
+
+.articleGrid{
+    margin-top: 10px;;
+    border: 2px solid red;
+    overflow-x: auto;
+    max-height: 100px;
+}
+    .table{
+        width:100%;
+        border-collapse: collapse;
+    }
+        .tableContainer{
+            background-color: blue;
+            color: white;
+            font-weight: normal;
+        }
+
+        .tableRow{
+            background-color: white;
+        }
+
+        .tableHeader{
+            background-color: blue;
+            color: white;
+            font-weight: normal;
+        }
+
+        .tableCell{
+            padding:2px;
+            text-align: center;
+            border:1px solid black;
+        }
+
+

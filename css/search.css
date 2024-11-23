@@ -1,0 +1,43 @@
+.search {
+    /*background-color: rgb(221, 216, 216);*/
+    margin:15px;
+}
+
+.search__container{
+    display:inline-block;
+    
+}
+
+.search__fieldset{
+    border-radius: 5px;
+}
+
+.search__fields--blocks{
+    display:inline-block;
+}
+
+.search__fields{
+    display: block;
+}
+
+.search__input {
+    width: 200px;
+    border-radius: 5px;
+    }
+
+.button__form {
+    width:100%;
+    background-color: #00469b;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button__form:hover{
+    background-color: hsl(213, 100%, 40%);
+}
+
+.button__form:active{
+    background-color: hsl(213, 100%, 45%);
+  
+}

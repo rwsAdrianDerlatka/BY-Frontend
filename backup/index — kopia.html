@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returns</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="imageContainer">
+        <img onclick="window.location.href='https://www.rhenus.group/'" class="image" src="image/Rhenus logo 2.png" alt="Rhenus Warehousing Solution" height="50px">
+    </div>
+
+        <div class="headerContainer">
+            <H1 class="header">Returns</H1>
+        </div>
+    
+        <div class="returnContainer">
+            <div class="returnFields">
+                <label >Return Order</label> 
+                <p><input id="rmaNumber" type="text" role="textbox" size="1" name="rmaNumber" placeholder="Return Order Number" maxlength="30" class="returnInput" autocomplete="off"></p>
+            </div>
+
+            <div class="returnFields">
+                <label >Article</label>
+                <p><input id="articleNumber" type="text" role="textbox" size="1" name="articleNumber" placeholder="Article Number" maxlength="30" class="returnInput" autocomplete="off"></p>  
+            </div>
+        </div>
+        <div class="articleGrid">
+            <table class="table">
+                <caption class="tableContainer">Ordered articles</caption>
+                    <tr class="tableRows">
+                        <th class="tableCell tableHeader" scope="col">Article No.</th>
+                        <th class="tableCell tableHeader" scope="col">Description</th>
+                        <th class="tableCell tableHeader" scope="col">Qty</th>
+                    </tr>
+                    <tr class="tableRows">
+                        <th class="tableCell" scope="col">541-6541-511</th>
+                        <th class="tableCell" scope="col">Dresik czarny</th>
+                        <th class="tableCell" scope="col">1</th>
+                    </tr>
+                    <tr class="tableRows">
+                        <th class="tableCell" scope="col">547-5145-174</th>
+                        <th class="tableCell" scope="col">Różowe klapki</th>
+                        <th class="tableCell" scope="col">1</th>
+                    </tr>
+                    <tr class="tableRows">
+                        <th class="tableCell" scope="col">547-5145-174</th>
+                        <th class="tableCell" scope="col">Różowe klapki</th>
+                        <th class="tableCell" scope="col">1</th>
+                    </tr>
+                    <tr class="tableRows">
+                        <th class="tableCell" scope="col">547-5145-174</th>
+                        <th class="tableCell" scope="col">Różowe klapki</th>
+                        <th class="tableCell" scope="col">1</th>
+                    </tr>
+            </table>
+                
+        </div>
+
+
+</body>
+</html>

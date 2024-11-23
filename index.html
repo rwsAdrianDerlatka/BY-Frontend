@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returns</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <section class="header">
+        <div class="header__image">
+            <img src="image/rhenus-logistics.png" alt="Rhenus Warehousing Solution" height="55px" width="200px">
+        </div>
+
+        <div class="header__container">
+            <p>Returns</p>
+        </div>
+    </section>
+
+    <section class="search">
+        <form class="js-form-1">
+            <div class="search__container">
+                <fieldset class="search__fieldset">
+                    <legend>Return Processing</legend>
+                    <div class="search__fields">
+                        <p><label for="rmaNumber">Return Order</label></p>
+                        <p><input id="rmaNumber" name="rmaNumber" type="text" role="textbox" size="1"
+                                placeholder="Return Order Number" class="search__input js-rmaNumber" autofocus
+                                autocomplete="off"></p>
+                    </div>
+                    <div class="search__fields">
+                        <p><label for="articleNumber">Article</label></p>
+                        <p><input id="articleNumber" name="articleNumber" type="text" role="textbox" size="1"
+                                placeholder="Article Number" class="search__input js-article" autocomplete="off">
+                        </p>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="search__container">
+                <fieldset class="search__fieldset">
+                    <legend>Customer</legend>
+                    <div class="search__fields--blocks">
+                        <div class="search__fields">
+                            <p><label for="customer">Customer Name</label></p>
+                            <p><input id="customer" name="customer" type="text" role="textbox" size="1"
+                                    placeholder="Customer" class="search__input js-customer" autocomplete="off">
+                        </div>
+                        <div class="search__fields">
+                            <p><label for="client">Client</label></p>
+                            <p><input id="client" name="client" type="text" role="textbox" size="1" placeholder="Client"
+                                    class="search__input js-client" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="search__fields--blocks">
+                        <div class="search__fields">
+                            <p><label for="city">City</label></p>
+                            <p><input id="city" name="city" type="text" role="textbox" size="1" placeholder="City"
+                                    class="search__input js-city" autocomplete="off">
+                        </div>
+                        <div class="search__fields">
+                            <p><label for="address">Address</label></p>
+                            <p><input id="address" name="address" type="text" role="textbox" size="1"
+                                    placeholder="Address" class="search__input js-address" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="search__fields--blocks">
+                        <div class="search__fields">
+                            <p><label for="postCode">Post Code</label></p>
+                            <p><input id="postCode" name="postCode" type="text" role="textbox" size="1"
+                                    placeholder="Post Code" class="search__input js-postCode" autocomplete="off"
+                                    pattern="[0-9]{2}-[0-9]{3}">
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="search__container">
+                <fieldset class="search__fieldset">
+                    <legend>Other</legend>
+                    <div class="search__fields--blocks">
+                        <div class="search__fields">
+                            <p><label for="orderNumber">Order</label></p>
+                            <p><input id="orderNumber" name="orderNumber" type="text" role="textbox" size="1"
+                                    placeholder="Order Number" class="search__input js-order" autocomplete="off"></p>
+                        </div>
+                        <div class="search__fields">
+                            <p><label for="carrier">Carrier</label></p>
+                            <p><input id="carrier" name="carrier" type="text" role="textbox" size="1"
+                                    placeholder="Carrier" class="search__input js-carrier" autocomplete="off">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="search__fields--blocks">
+                        <div class="search__fields">
+                            <p><label for="date">Shipment date</label></p>
+                            <p><input id="date" name="date" type="date" class="search__input js-shpDate"
+                                    autocomplete="off">
+                            </p>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="button">
+                <p>
+                    <button class="button__form">Search</button>
+                </p>
+            </div>
+        </form>
+        <div>
+            <output name="result" class="js-Order"></output>
+        </div>
+    </section>
+</body>
+
+</html>
