@@ -12,7 +12,8 @@
 }
 
 .header__container{
-    padding-left: 50px; 
+    /*padding-left: 50px; */
+    margin: 15px 0px 15px 50px;
 }
 
 .header__image {
