@@ -6,4 +6,4 @@ let orderElement = document.querySelector(".js-Order");
 
 addEventListener("input", ()=> {
     orderElement.innerText = returnOrder.value;
-})
+})           
